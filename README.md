@@ -99,3 +99,14 @@ the response column name ("response") is specified.
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+##  Linting report
+churn_library.py:253:0: C0116: Missing function or method docstring (missing-function-docstring)
+churn_library.py:253:17: C0103: Argument name "X_train" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:253:26: C0103: Argument name "X_test" doesn't conform to snake_case naming style (invalid-name)
+churn_library.py:17:0: C0411: standard import "import logging" should be placed before "import pandas as pd" (wrong-import-order)
+churn_library.py:7:0: W0611: Unused numpy imported as np (unused-import)
+churn_library.py:16:0: W0611: Unused normalize imported from sklearn.preprocessing (unused-import)
+
+------------------------------------------------------------------
+Your code has been rated at 3.45/10 (previous run: 0.86/10, +2.59)
